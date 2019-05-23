@@ -7,16 +7,16 @@ import org.testng.annotations.AfterClass;
 public class githubDemoPush {
   @Test
   public void f() {
-	  System.out.println("github-Push测试");
+	  System.out.println("github-Push测试2");
   }
   @BeforeClass
   public void beforeClass() {
-	  System.out.println("github-Push测试");
+	  System.out.println("github-Push测试2");
   }
 
   @AfterClass
   public void afterClass() {
-	  System.out.println("github-Push测试");
+	  System.out.println("github-Push测试2");
   }
 
 }
