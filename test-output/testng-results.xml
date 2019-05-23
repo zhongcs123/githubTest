@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15" started-at="2019-05-23T02:19:32Z" finished-at="2019-05-23T02:19:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15" started-at="2019-05-23T02:19:32Z" finished-at="2019-05-23T02:19:32Z">
+      <class name="githubTest.githubTest01.githubDemoPush">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:githubTest.githubTest01.githubDemoPush@6956de9]" name="beforeClass" is-config="true" duration-ms="5" started-at="2019-05-23T10:19:32Z" finished-at="2019-05-23T10:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:githubTest.githubTest01.githubDemoPush@6956de9]" name="f" duration-ms="3" started-at="2019-05-23T10:19:32Z" finished-at="2019-05-23T10:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:githubTest.githubTest01.githubDemoPush@6956de9]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-23T10:19:32Z" finished-at="2019-05-23T10:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- githubTest.githubTest01.githubDemoPush -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
