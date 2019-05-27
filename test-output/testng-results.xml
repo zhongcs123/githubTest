@@ -2,22 +2,26 @@
 <testng-results skipped="0" failed="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21" started-at="2019-05-27T02:28:09Z" finished-at="2019-05-27T02:28:09Z">
+  <suite name="Suite" duration-ms="21" started-at="2019-05-27T02:59:15Z" finished-at="2019-05-27T02:59:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21" started-at="2019-05-27T02:28:09Z" finished-at="2019-05-27T02:28:09Z">
+    <test name="Test" duration-ms="21" started-at="2019-05-27T02:59:15Z" finished-at="2019-05-27T02:59:15Z">
       <class name="githubTest.githubTest01.Demo2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:githubTest.githubTest01.Demo2@769c9116]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-27T10:28:09Z" finished-at="2019-05-27T10:28:09Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:githubTest.githubTest01.Demo2@769c9116]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-05-27T10:59:15Z" finished-at="2019-05-27T10:59:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="FAIL" signature="test()[pri:0, instance:githubTest.githubTest01.Demo2@769c9116]" name="test" duration-ms="1" started-at="2019-05-27T10:28:09Z" finished-at="2019-05-27T10:28:09Z">
-          <exception class="java.lang.Exception">
+        <test-method status="FAIL" signature="test()[pri:0, instance:githubTest.githubTest01.Demo2@769c9116]" name="test" duration-ms="1" started-at="2019-05-27T10:59:15Z" finished-at="2019-05-27T10:59:15Z">
+          <exception class="java.lang.Error">
             <message>
-              <![CDATA[测试2：错误信息]]>
+              <![CDATA[无法解析的编译问题：
+	语法错误，将“;”插入到完整 BlockStatements 中
+]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Exception: 测试2：错误信息
+              <![CDATA[java.lang.Error: 无法解析的编译问题：
+	语法错误，将“;”插入到完整 BlockStatements 中
+
 	at githubTest.githubTest01.Demo2.test(Demo2.java:11)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -45,25 +49,25 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
+          </exception> <!-- java.lang.Error -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:githubTest.githubTest01.Demo2@769c9116]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-27T10:28:09Z" finished-at="2019-05-27T10:28:09Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:githubTest.githubTest01.Demo2@769c9116]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-27T10:59:15Z" finished-at="2019-05-27T10:59:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- githubTest.githubTest01.Demo2 -->
       <class name="githubTest.githubTest01.githubDemoPush">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:githubTest.githubTest01.githubDemoPush@d70c109]" name="beforeClass" is-config="true" duration-ms="5" started-at="2019-05-27T10:28:09Z" finished-at="2019-05-27T10:28:09Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:githubTest.githubTest01.githubDemoPush@d70c109]" name="beforeClass" is-config="true" duration-ms="5" started-at="2019-05-27T10:59:15Z" finished-at="2019-05-27T10:59:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="f()[pri:0, instance:githubTest.githubTest01.githubDemoPush@d70c109]" name="f" duration-ms="4" started-at="2019-05-27T10:28:09Z" finished-at="2019-05-27T10:28:09Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:githubTest.githubTest01.githubDemoPush@d70c109]" name="f" duration-ms="4" started-at="2019-05-27T10:59:15Z" finished-at="2019-05-27T10:59:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:githubTest.githubTest01.githubDemoPush@d70c109]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-05-27T10:28:09Z" finished-at="2019-05-27T10:28:09Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:githubTest.githubTest01.githubDemoPush@d70c109]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-05-27T10:59:15Z" finished-at="2019-05-27T10:59:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

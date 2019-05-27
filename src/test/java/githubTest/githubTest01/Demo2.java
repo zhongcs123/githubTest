@@ -8,7 +8,7 @@ public class Demo2 {
   @Test
   public void test() throws Exception {
 	  
-	  throw new Exception("测试2：错误信息")
+	  throw new Exception("测试2：错误信息");
   }
   @BeforeClass
   public void beforeClass() {
